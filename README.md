@@ -10,8 +10,8 @@ You can do this with: `haxelib install linc_luajit` on a Command prompt/PowerShe
 
 ## Credits:
 * Raiden alfares - Coding
-* Meliozets - Give me Idea
-
+* Meliozets - Give me Idea*
+* Rc - Optimize characters*
 ### Special Thanks
 * Keoiki - Note Splash Animations
 
