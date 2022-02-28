@@ -46,6 +46,8 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
+            ['optimization characters']
+            [' Rc',		    'Rc',		    'optimized bf characters',	 https://youtube.com/channel/UCHzwOe1p9ZP8EXePCQS4zLw',	'F73838'],
 			['Idea of the name,Coder'],
 			['Raiden alfares',		    'Raiden',		    'Main Coder of The engine,Owner',	 'https://youtube.com/channel/UChE0s906J1YZRf1Ln9wP8Gg',	'0xFFC30085'],
 			['Helper'],
@@ -177,4 +179,4 @@ class CreditsState extends MusicBeatState
 	private function unselectableCheck(num:Int):Bool {
 		return creditsStuff[num].length <= 1;
 	}
-}
+} 
