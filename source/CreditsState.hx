@@ -46,10 +46,12 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
+            ['optimization characters']
+            [' Rc',		    'Rc',		    'optimized bf characters',	 https://youtube.com/channel/UCHzwOe1p9ZP8EXePCQS4zLw',	'F73838'],
 			['Idea of the name,Coder'],
 			['Raiden alfares',		    'Raiden',		    'Main Coder of The engine,Owner',	 'https://youtube.com/channel/UChE0s906J1YZRf1Ln9wP8Gg',	'0xFFC30085'],
 			['Helper'],
-			['Monika',		'Sus',		'Help raiden',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
+			['Monika',		'sus',		'Help raiden',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['Meliozets',		'Dz',		'Give Idea for raiden',					'https://youtube.com/channel/UCzHhqTunXYFyI3_5gsDgJ_w',	'0xFFFFF00'],
 			
 		];
@@ -84,7 +86,7 @@ class CreditsState extends MusicBeatState
 		}
 
 		descText = new FlxText(50, 600, 1180, "", 32);
-		descText.setFormat(Paths.font("font.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		descText.scrollFactor.set();
 		descText.borderSize = 2.4;
 		add(descText);
@@ -177,4 +179,4 @@ class CreditsState extends MusicBeatState
 	private function unselectableCheck(num:Int):Bool {
 		return creditsStuff[num].length <= 1;
 	}
-}
+} 
